@@ -115,23 +115,3 @@ text to Gemini, receives a reply, and displays/speaks it back.
   (`display_errors = 0`) so no HTML error text gets mixed into a JSON
   response — a common bug that breaks the frontend.
 
-## Publishing to GitHub (Task 3)
-
-1. A new Repository was created on GitHub.
-2. All project files were pushed (`index.html`, `style.css`, `app.js`,
-   `README.md`, and the `api/` folder including `handler.php` and
-   `.htaccess`), excluding the real `config.php` via `.gitignore` to keep
-   the API key private.
-3. All steps and problems above are documented in this file.
-
-## Additional Notes
-
-- The server hosting must support PHP's `cURL` extension (enabled by
-  default on most hosts, including InfinityFree).
-- The site must be accessed over `https://` (not opened locally as a file)
-  for the browser's `SpeechRecognition` feature to work.
-- Works best in Chrome or Edge, as noted in the UI.
-- For future connection errors, the best diagnostic tool is the browser's
-  **Network tab** (F12 → Network) — it shows the real HTTP status and the
-  server's actual response body, instead of the generic error shown in the
-  UI.
