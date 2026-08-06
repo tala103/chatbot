@@ -8,7 +8,7 @@ spoken back out loud (Text-to-Speech).
 🔗 Live site: `https://tala.kesug.com/chat/`
 
 <!-- Add a screenshot of the chat interface here, for example: -->
-<!-- ![Voice Chatbot Screenshot](screenshot.png) -->
+<!-- ![Voice Chatbot Screenshot](screenshot3.png) -->
 
 ## File Structure
 
